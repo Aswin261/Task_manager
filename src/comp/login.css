@@ -1,0 +1,19 @@
+
+    .wrapper {
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align:center;
+      height: 100vh;
+      min-width: 200px;
+      width: 100%;
+      margin: auto;
+    }
+    .wrapper > form {
+      width: 70%;
+    }
+    .wrapper>button{
+      border-radius:5px;
+    }
+    

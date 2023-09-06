@@ -1,0 +1,102 @@
+/* *{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    text-decoration:none;
+}
+.menu{
+    position:fixed;
+    left:-250px;
+    width:200px;
+    height:100%;
+    background:#042331;
+}
+.menu h2{
+    font-size:22px;
+    color:white;
+    text-align:center;
+    line-height: 70px;
+    background:#063146;
+    user-select: none;
+}
+.menu ul a{
+    display:block;
+    height:100%;
+    width:100%;
+    line-height:65px;
+    font-size: 20px;
+    color:white;
+    padding-left:40px;
+    box-sizing: border-box;
+    border-top:1px solid rgba(255,255,255,.1);
+    border-bottom:1px solid black;
+    transition: all .5s ease;
+}
+ul li:hover a{
+    padding-left:50px;
+
+}
+a i{
+    margin-right: 16px;
+}
+#check{
+    display: none;
+}
+label #btn,label #cancel{
+    position:absolute;
+    cursor:pointer;
+    background:#042331;
+    border-radius:3px;
+}
+label #btn{
+    left:30px;
+    top:20px;
+    font-size:20px;
+    color:white;
+    padding:6px 12px;
+    transition: all .4s;
+}
+label #cancel{
+    z-index:1111;
+    left:-195px;
+    top:17px;
+    font-size:15px;
+    color:#0a5275;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+#check:checked ~.menu{
+    left:0;
+}
+#check:checked ~ label #btn{
+    left:250px;
+    opacity:0;
+    pointer-events:none;
+
+}
+#check:checked ~ label #cancel{
+    left:170px;
+
+}
+ */
+
+.topnav {
+    background-color: #005279;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float:left;
+    justify-content: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  

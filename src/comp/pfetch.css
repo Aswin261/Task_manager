@@ -1,0 +1,26 @@
+.fetch{
+    margin-left:10px;
+    margin-top:50px;
+      width: 100%;
+   
+}
+th.today {
+    background-color: green;
+  }
+  
+  th.future {
+    background-color: blue;
+  }
+  
+  th.past {
+    background-color: red;
+  }
+
+  td,th{
+    white-space: nowrap;
+  }
+  tab{
+    width:90%;
+  }
+
+
